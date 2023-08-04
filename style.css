@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    height: 480px;
+    background-color: black;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 0, 0),#D87EBF) ;
+}
+
+/* banner topo */
+
+.textotopo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: -360px 0px 135px 300px;
+}
+
+.textotopo p {
+    font: 300 35px 'Poppins', sans-serif;
+    display: flex;
+    margin: 5px;
+}
+
+.textotopo h1 {
+    font: 500 70px 'Poppins', sans-serif;
+    display: flex;
+    margin: 10px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.calculume {
+    max-width: 100%;
+}
+
+/* fim do banner topo */
+
+section img {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+
+section h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+section h3 {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caixa {
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas {
+    width: 190px;
+    height: 340px;
+    margin: 5px 15px;
+    background-image: linear-gradient(#BD15E5,#DE30A9, #E754ED, #FFEE95 );
+    border-radius: 18px;
+    filter:brightness(0.51);
+    padding: 10px;
+}
+
+.caixas:hover {
+    box-shadow: 5px 7px 18px #000;
+    width: 220px;
+    height: 370px;
+    transition: 1.0s;
+    margin: 5px 15px;
+    background-color: #00000039;
+    filter: brightness(1);
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+   
+}
+
+header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 0, 0),#D87EBF) ;
+}
+
+/* banner topo */
+
+.textotopo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: -360px 0px 120px 300px;
+}
+
+.textotopo p {
+    font: 300 35px 'Poppins', sans-serif;
+    display: flex;
+    margin: 5px;
+}
+
+.textotopo h1 {
+    font: 500 70px 'Poppins', sans-serif;
+    display: flex;
+    margin: 10px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.calculume {
+    max-width: 100%;
+}
+
+/* fim do banner topo */
+
+section img {
+    width: 180px;
+    margin: 20px 0px;
+}
+
+.caixa {
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixas {
+    width: 190px;
+    height: 300px;
+    margin: 10px 20px;
+    background-image: linear-gradient(#BD15E5,#DE30A9, #E754ED, #FFEE95 );
+    border-radius: 18px;
+    
+}
+
+/* section primeira */
+
+/* fim section primeira */
+}
